@@ -1,0 +1,117 @@
+.product-card {
+    margin:30px 0;
+}
+.product-card :hover{
+    background-color: #dcdcdc;
+}
+.btn-shop {
+    background-color: #FF5E03;
+    width: 100%;
+    margin:10px 0;
+}
+
+.btn-shop:hover {
+    background-color: #212131;
+}
+.title-product {
+    font-size:18px;
+    text-align: center;
+}
+
+.img-product {
+    width: 100%;
+}
+.star-filled {
+    color: gold; /* ou a cor desejada para estrelas preenchidas */
+    font-size: 2em;
+  }
+  
+  .star-empty {
+    color: #ccc; /* ou a cor desejada para estrelas vazias */
+    font-size: 2em;
+  }
+
+  .desc-product {
+    margin-top: 30px;
+  }
+  .product-title {
+    color:#212131;
+    font-weight: 600;
+  }
+
+  .btn-cart {
+    background-color: #FF5E03;
+    margin-top: 20px;
+  }
+  .btn-cart:hover {
+    background-color: #212131;
+}
+.quantity-input {
+    width: 100px;
+    margin-bottom: 10px;
+}
+.text-input{
+    font-size: 20px;
+    font-weight: bold;
+}
+.font-money {
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.number-money {
+    font-size:18px;
+    color:#212131;
+    font-weight: 500;
+}
+.message-error {
+    color: #212131;
+    font-size:16px
+}
+
+.desc-text {
+    color: #212131;
+    font-size:18px;
+    font-weight: 300;
+}
+.number-money-product {
+    text-align: center;
+}
+
+@media (max-width: 420px) {
+    .btn-cart{
+        width: 100%;
+        height: 60px;
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+    .text-input {
+        font-size: 24px;
+    }
+    .quantity-input {
+        width: 100%;
+    }
+}
+
+.search-product {
+    background-color: #FF5E03;
+}
+.search-product:hover {
+    background-color: #212131;
+}
+.filter-product{ background-color: #FF5E03;}
+.filter-product:hover{background-color: #212131;}
+
+@media (max-width: 420px) {
+    .search-product {
+        width: 100%;
+        height: 50px;
+        font-size: 24px;
+        margin:15px 0;
+    }
+    .filter-product{
+        width: 100%;
+        height: 50px;
+        font-size: 24px;
+        margin-top:15px;
+    }
+}
